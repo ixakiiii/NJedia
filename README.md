@@ -9,9 +9,6 @@
   Laravel-based E-Commerce Website — A Tokopedia Clone
 </p>
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Mockup Screenshot](#mockup-screenshot)
 
 ## Project Overview
 
@@ -23,31 +20,53 @@ tokoNJedia
 **tokoNJedia** adalah project web e-commerce berbasis **Laravel** yang terinspirasi dari Tokopedia.  
 Project ini dibangun sebagai latihan membangun marketplace modern dengan fokus pada sistem autentikasi, katalog produk, keranjang belanja, dan checkout.
 
-## Mockup Screenshot
 
-* Home Page
+### Cara Build ulang Project
+***persiapkan***
+download project sesudah download exstract file, install composer, xampp minimal versi 8.2.12 / PHP 8.2.12 dan download PHP versi 8.2.30 
 
-<p align="center">
-  <img src = "https://i.imgur.com/sM93vzW.jpeg" width=700>
-</p>
+***siap***
 
-* Product Detail Page
 
-<p align="center">
-  <img src = "https://i.imgur.com/rqP4M5G.png" width=700>
-</p>
+cd sesuaikan folder
 
-* Shopping Cart Page
 
-<p align="center">
-  <img src = "https://i.imgur.com/81Q04vw.png" width=700>
-</p>
+npm install
 
-* Checkout Page
 
-<p align="center">
-  <img src = "https://i.imgur.com/Gxy5i4z.png" width=700>
-</p>
+composer install
+
+
+php artisan 
+
+
+ganti env baru/buat file env baru setelah itu diisi opsional copy paste yang sudah ada juga bisa
+
+
+php artisan migrate
+
+
+php artisan key:generate
+
+
+php artisan config:clear
+
+
+php artisan cache:clear apa bila habis terjadi eror
+
+
+php artisan db:seed
+
+
+php artisan migrate:fresh --seed
+
+
+ganti beberapa tampilan opsional di file manapun seperti contoh file (CategoryFactory.php)
+
+
+### Profil Page
+<img width="1349" height="677" alt="Screenshot 2025-12-29 015911" src="https://github.com/user-attachments/assets/9f720037-1c06-41c9-81c6-f6dc40e5cb05" />
+
 
 ## Technology Stack
 
@@ -55,4 +74,5 @@ Project ini dibangun sebagai latihan membangun marketplace modern dengan fokus p
 - **Database**: MySQL  
 - **Templating**: Blade  
 - **Styling**: CSS  
+
 # NJedia
