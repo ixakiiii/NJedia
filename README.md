@@ -37,9 +37,6 @@ npm install
 composer install
 
 
-php artisan 
-
-
 ganti env baru/buat file env baru setelah itu diisi opsional copy paste yang sudah ada juga bisa
 
 
@@ -62,6 +59,14 @@ php artisan migrate:fresh --seed
 
 
 ganti beberapa tampilan opsional di file manapun seperti contoh file (CategoryFactory.php)
+
+**jalankan secara bersamaan**
+
+
+npm run dev
+
+
+php artisan serve
 
 
 ### Profil Page
